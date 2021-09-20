@@ -1,12 +1,12 @@
-/*font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
