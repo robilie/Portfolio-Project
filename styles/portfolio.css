@@ -1,12 +1,33 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 
-h1 {
+.hero {
+  background-color: #282323;
+  color: white;
+  text-align: center;
+  padding: 160px 20px;
+}
+h1,
+h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
+.hero h1 {
+  font-size: 72px;
+  line-height: 84px;
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
 
-p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+.hero p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.btn-branding {
+  background: white;
+  color: #272142;
+  border-radius: 50px;
 }
