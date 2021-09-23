@@ -71,3 +71,52 @@ h2 {
 .row {
   padding-bottom: 40px;
 }
+@media (max-width: 576px) {
+  .hero-image {
+    height: auto;
+  }
+
+  .hero-text {
+    padding-top: 100px;
+  }
+  .hero-text h1 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+  }
+  .hero-text h2 {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0;
+    margin-bottom: 12px;
+  }
+
+  .hero-text p {
+    font-size: 9px;
+    line-height: 15px;
+    margin-bottom: 22px;
+  }
+
+  .btn-branding {
+    font-size: 7px;
+    line-height: 8px;
+    letter-spacing: 0;
+    padding: 9px 15px;
+  }
+
+  .lower-homepage {
+    padding: 40px;
+  }
+
+  .row {
+    padding-bottom: 20px;
+  }
+
+  .photo-left {
+    padding-bottom: 20px;
+  }
+  .photo-center {
+    padding-bottom: 20px;
+  }
+}
