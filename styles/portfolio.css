@@ -120,3 +120,80 @@ h2 {
     padding-bottom: 20px;
   }
 }
+
+.about-body {
+  background-color: #202020;
+}
+
+.about-me-written-section {
+  padding-right: 120px;
+}
+.about-me h2 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #f65282;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-me h1 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.about-me p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 40px;
+}
+.social-media-left {
+  margin-right: 20px;
+}
+
+.social-media-center {
+  margin-right: 20px;
+}
+.social-media-right {
+  margin-right: 20px;
+}
+
+.about-me-mini-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+
+.my-camera {
+  background-color: #2d2727;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 70%;
+}
