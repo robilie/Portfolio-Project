@@ -279,6 +279,9 @@ h2 {
 }
 
 @media (max-width: 576px) {
+  .gallery-content {
+    padding-top: 30px;
+  }
   .gallery-heading {
     font-size: 65px;
   }
