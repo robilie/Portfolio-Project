@@ -304,3 +304,53 @@ h2 {
     margin: 5px;
   }
 }
+
+.contact-body {
+  background-color: #202020;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.heading-contact-me {
+  font-family: Roboto;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.heading-contact-info {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #f65282;
+  text-transform: uppercase;
+}
+.contact-info p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: white;
+}
+.icon {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
