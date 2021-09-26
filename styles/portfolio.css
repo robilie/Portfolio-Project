@@ -252,3 +252,52 @@ h2 {
     margin-bottom: 10px;
   }
 }
+
+.gallery-body {
+  background-color: #202020;
+}
+.gallery-content {
+  padding-bottom: 30px;
+}
+.gallery-heading {
+  font-family: Roboto;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 576px) {
+  .gallery-heading {
+    font-size: 65px;
+  }
+  .section {
+    display: block;
+    margin-bottom: 0;
+  }
+  .section img {
+    width: 98%;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (width: 768px) {
+  .section {
+    margin-bottom: 0;
+  }
+  .section img {
+    max-width: 32%;
+    margin: 5px;
+  }
+}
