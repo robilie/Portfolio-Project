@@ -374,3 +374,44 @@ div.container-fluid.navbar-box {
     margin: 10px;
   }
 }
+
+footer {
+  background-color: #282323;
+  color: white;
+  padding: 40px 0;
+}
+
+.social-links {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: #f65282;
+}
+.social-links .fab {
+  padding: 10px;
+}
+.social-links a {
+  color: white;
+}
+.github-link a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+  .bottom div {
+    margin-bottom: 10px;
+  }
+}
