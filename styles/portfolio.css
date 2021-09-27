@@ -354,3 +354,23 @@ h2 {
   letter-spacing: 0em;
   text-align: left;
 }
+
+div.container-fluid.navbar-box {
+  margin: 20px 100px 40px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  div.container-fluid.navbar-box {
+    margin: 10px;
+  }
+}
