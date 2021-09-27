@@ -170,6 +170,11 @@ h2 {
   color: white;
   margin-bottom: 40px;
 }
+
+.social-media a {
+  color: white;
+}
+
 .social-media-left {
   margin-right: 20px;
 }
@@ -367,6 +372,10 @@ div.container-fluid.navbar-box {
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  font-weight: 700;
 }
 
 @media (max-width: 576px) {
